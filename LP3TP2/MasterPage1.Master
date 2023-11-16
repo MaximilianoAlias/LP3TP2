@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage1.master.cs" Inherits="LP3TP2.MasterPage1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div id="navbar" class="navbar2">
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/index.aspx">Index</asp:HyperLink>  
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/formulario1.aspx">Formulario1</asp:HyperLink>
+        </div>
+       
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div>
+            <h3>Este es el footer</h3>
+        </div>
+    </form>
+</body>
+</html>
