@@ -5,6 +5,9 @@
    
     <div class="tituloFormulario1">
       <h1>Formulario 1 - Registracion</h1>
+        <h2>Session Iniciada por: <asp:Label ID="labelSession" runat="server" Text=""></asp:Label></h2>
+                <h2><asp:Label ID="labelCookiePass" runat="server" Text=""></asp:Label></h2>
+
     </div>
 
     <div class="cuerpoDelFormulario1">
@@ -37,7 +40,7 @@
         <br /><br />
 
         <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />
-        <asp:Button ID="btnRegistrarUsuario" runat="server" Text="Registrar"/> <br /><br />
+        <asp:Button ID="btnRegistrarUsuario" runat="server" Text="Registrar" OnClick="btnRegistrarUsuario_Click" /> <br /><br />
     </div>
 
 

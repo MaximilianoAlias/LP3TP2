@@ -14,7 +14,7 @@
         
         <div id="navbar" class="navbar">
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/formulario1.aspx">Registration Form</asp:HyperLink>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/cargaArchivos.aspx">Upload Files</asp:HyperLink>  
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/cargaArchivos.aspx">Upload Files</asp:HyperLink>
         </div>
        
 

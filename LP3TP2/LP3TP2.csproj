@@ -73,6 +73,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Archivo.cs" />
     <Compile Include="cargaArchivos.aspx.cs">
       <DependentUpon>cargaArchivos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
